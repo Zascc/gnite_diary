@@ -23,5 +23,8 @@ urlpatterns = [
     path('diet_data/', DietView.as_view(), name='diet_data'),
     path('sport_data/', SportView.as_view(), name='sport_data'),
     path('event_data/', EventView.as_view(), name='event_data'),
+    path('test_data/', TestDataView.as_view(), name='test_data'),
+    path('interest_data/', InterestView.as_view(), name='interest_data'),
+    path('most_recent_data/', RecentView.as_view(), name='most_recent_data'),
     
 ]
